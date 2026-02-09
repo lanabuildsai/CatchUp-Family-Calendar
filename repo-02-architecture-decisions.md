@@ -66,7 +66,7 @@ Base: 0.85
 
 **Implementation:** Firebase document per user. Aliases map to resolved addresses. Cache grows with each user correction. After 2 weeks, average user has 8-12 cached locations covering ~85% of venues.
 
-→ See [RAG & Context Injection](03-rag-context-injection.md) for full details.
+
 
 ---
 
@@ -78,7 +78,7 @@ Base: 0.85
 
 **Rationale:** Extraction requires consistency (same input → same output), low latency (2-3s), and debuggability. Agents add non-determinism, 3-5x latency, and opaque reasoning chains.
 
-→ See [Agentic Architecture](05-agentic-architecture.md) for full comparison.
+
 
 ---
 
