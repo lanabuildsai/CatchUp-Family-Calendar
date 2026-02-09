@@ -5,7 +5,7 @@ Demo: https://claude.ai/public/artifacts/f0b0d5ca-60ab-4dcb-a32c-73d9ecf8e0f6
 
 Built end-to-end as a solo AI product: user research → architecture → prompt engineering → HITL iteration → analytics framework → PLG audit → strategic portfolio decision.
 
-**[→ Live Interactive Prototype](https://claude.site/artifacts/YOUR_ARTIFACT_ID)** — 8-tab React app with working UI, extraction simulations, and iteration walkthroughs
+**[→ Live Interactive Prototype]([https://claude.site/artifacts/YOUR_ARTIFACT_ID](https://claude.ai/public/artifacts/f0b0d5ca-60ab-4dcb-a32c-73d9ecf8e0f6))** — 8-tab React app with working UI, extraction simulations, and iteration walkthroughs
 
 ---
 
