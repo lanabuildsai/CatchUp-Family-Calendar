@@ -69,7 +69,6 @@ KNOWN LOCATIONS for this user:
 
 **Lesson:** Context > capability. A less capable model with user-specific retrieval context outperforms a more capable model without it. This is the core RAG insight applied to document extraction.
 
-→ Full details in [RAG & Context Injection](03-rag-context-injection.md)
 
 ---
 
