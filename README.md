@@ -108,28 +108,28 @@ catchup-ai/
 
 ## Documentation Deep-Dives
 
-### 📋 Product Strategy — [`docs/01-product-strategy.md`](docs/01-product-strategy.md)
+### 📋 Product Strategy https://github.com/lanabuildsai/CatchUp-Family-Calendar/blob/main/repo-01-product-strategy.md
 Problem validation using Mom Test methodology, market sizing (TAM $1.5B+ → SOM 2M), competitive landscape analysis, and feature prioritization framework (MoSCoW). Demonstrates customer obsession and systematic opportunity assessment.
 
-### 🏗️ Architecture Decisions — [`docs/02-architecture-decisions.md`](docs/02-architecture-decisions.md)
+### 🏗️ Architecture Decisions — https://github.com/lanabuildsai/CatchUp-Family-Calendar/blob/main/repo-02-architecture-decisions.md
 Five Architecture Decision Records: three-layer pipeline separation, GPT-4 Vision vs. Tesseract, confidence threshold calibration (why 0.90, not 0.85 or 0.95), per-family location cache, and tech stack rationale.
 
-### 🔍 RAG & Context Injection — [`docs/03-rag-context-injection.md`](docs/03-rag-context-injection.md)
+### 🔍 RAG & Context Injection — https://github.com/lanabuildsai/CatchUp-Family-Calendar/blob/main/repo-03-rag-context-injection.md
 How retrieval-augmented prompting improved accuracy by 13 points. Per-user location history injected into extraction prompts. Temporal anchoring for relative date resolution. The RAG pattern applied to a consumer product — same techniques used in enterprise document intelligence.
 
-### 🧠 Prompt Engineering — [`docs/04-prompt-engineering.md`](docs/04-prompt-engineering.md)
+### 🧠 Prompt Engineering — https://github.com/lanabuildsai/CatchUp-Family-Calendar/blob/main/repo-04-prompt-engineering.md
 Four HITL iterations over four weeks. Full prompts for each version, failure mode analysis, accuracy progression tables, and the feedback flywheel design. Core insight: **context injection > model changes** — the biggest gain came from user-specific retrieval, not from switching models.
 
-### 🤖 Agentic Architecture — [`docs/05-agentic-architecture.md`](docs/05-agentic-architecture.md)
+### 🤖 Agentic Architecture — https://github.com/lanabuildsai/CatchUp-Family-Calendar/blob/main/repo-05-agentic-architecture.md
 The deliberate decision NOT to use agents for extraction, and WHERE agents add value (multi-step coordination). Comparison framework: latency, reliability, debuggability, user trust, cost. Three agentic module designs with orchestration patterns.
 
-### 📊 PLG Friction Audit — [`docs/06-plg-friction-audit.md`](docs/06-plg-friction-audit.md)
+### 📊 PLG Friction Audit — https://github.com/lanabuildsai/CatchUp-Family-Calendar/blob/main/repo-06-plg-friction-audit.md
 Systematic self-audit: 15 UX friction points mapped to PLG activation loop (Land → Capture Value → Aha Moment → Habit → Expand). Priority matrix, before/after analysis, sprint plan. 14/15 implemented.
 
-### ⚖️ Kill Decision — [`docs/07-kill-decision-framework.md`](docs/07-kill-decision-framework.md)
+### ⚖️ Kill Decision — https://github.com/lanabuildsai/CatchUp-Family-Calendar/blob/main/repo-07-kill-decision-framework.md
 Six-stage assessment framework for portfolio decisions. Why strong technical validation (92% accuracy) doesn't guarantee product-market fit. The strategic pivot to licensing. Demonstrates maturity in knowing when to stop.
 
-### 📈 Analytics — [`analytics/`](analytics/)
+### 📈 Analytics — https://github.com/lanabuildsai/CatchUp-Family-Calendar/blob/main/repo-analytics-measurement-strategy.md
 Complete measurement strategy: North Star metric definition, AARRR funnel with targets, cohort segmentation (Power/Core/Casual/At-Risk), analytics stack architecture, dashboard hierarchy, and A/B experimentation governance with statistical rigor requirements.
 
 ---
